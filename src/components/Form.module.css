@@ -1,0 +1,37 @@
+.container {
+  width: 100%;
+  height: 3.375rem;
+  margin-top: -1.688rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.container input {
+  flex: 1;
+  background: var(--gray-500);
+  border-radius: 8px;
+  border: 0;
+  padding: 1rem;
+}
+
+.container input::placeholder{
+  color: var(--gray-300);
+}
+
+.container button {
+  width: 5.625rem;
+  background: var(--blue-300);
+  border-radius: 8px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+} 
+
+.container button:hover {
+  background: var(--blue-100);
+}

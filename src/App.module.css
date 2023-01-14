@@ -1,0 +1,12 @@
+.container {
+  background: var(--gray-600);
+  min-height: 100vh;
+  height: 100%;
+  color: var(--gray-100);
+} 
+
+.container main {
+  max-width: 46rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}

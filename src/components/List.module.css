@@ -1,0 +1,81 @@
+.container {
+  margin-top: 4rem;
+  padding-bottom: 1.5rem;
+}
+
+.container header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.taskCreate {
+  display: flex;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  color: var(--blue-100);
+  font-weight: bold;
+}
+
+.taskCreate span {
+  display: flex;
+  justify-content: center;
+  width: 25px;
+  height: 19px;
+  background: var(--gray-400);
+  color: var(--gray-100);
+  border-radius: 999px;
+  padding: 2px 8px;
+  font-size: 0.75rem;
+}
+
+.taskCompleted {
+  display: flex;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  color: var(--purple-100);
+  font-weight: bold;
+}
+
+.taskCompleted span {
+  display: flex;
+  justify-content: center;
+  width: max-content;
+  height: 19px;
+  background: var(--gray-400);
+  color: var(--gray-100);
+  border-radius: 999px;
+  padding: 2px 8px;
+  font-size: 0.75rem;
+}
+
+.listWithoutItem {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: center;
+  padding: 4rem 1.5rem;
+  border-top: 1px solid #333333;
+  border-radius: 8px;
+}
+
+.listWithoutItem strong {
+  line-height: 1.4;
+  color: var(--gray-300);
+}
+
+.listWithoutItem span {
+  line-height: 1.4;
+  color: var(--gray-300);
+}
+
+.infoWithoutItem {
+  display: flex;
+  flex-direction: column;
+}
+
+.listWithoutItem img {
+  width: 3.5rem;
+  height: 3.5rem;
+}
