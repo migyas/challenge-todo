@@ -24,6 +24,7 @@ function App() {
       isCompleted: true,
     };
     setTasks((prevState) => [...prevState, newTask]);
+    setText("");
   }
 
   function handleDeleteTask(id: string) {
